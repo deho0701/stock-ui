@@ -1,0 +1,64 @@
+.grid {
+  width: 75vw;
+  height: 185vh;
+  background-color: rgba(0,0,0,0.6);
+  display: grid;
+  grid-template-columns: 15vw 60vw;
+  border-radius: 20px;
+}
+.grid__main {
+  display: flex;
+  flex-direction: column;
+}
+.grid__main-header {
+  color: rgba(214,214,214,0.1);
+  width: 60vw;
+  height: 75px;
+  border-bottom: 2px solid rgba(214,214,214,0.1);
+  color: rgba(214,214,214,0.1);
+  display: flex;
+  
+  align-items: center;
+}
+.header__form {
+  display: flex;
+  align-items: center;
+}
+.header__button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(214,214,214,0.1);
+  padding: 20px;
+}
+.header__search {
+  font-size: 17px;
+  background-color: rgba(0,0,0,0);
+  width: 650px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.header__search:hover {
+  background-color: rgba(214,214,214,0.1);
+}
+.header__profile {
+  display: flex;
+  align-items: center;
+}
+.main__avatar {
+  width: 50px;
+  border-radius: 25px;
+  margin-left: 15px;
+}
+.main__avatar-name {
+  color: white;
+  opacity: 0.3;
+}
+.grid__side {
+  background-color: rgba(0,0,0,0.45);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.4) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.3) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.2) 0px 2px 1px, rgba(0, 0, 0, 0.3) 0px 4px 2px, rgba(0, 0, 0, 0.3) 0px 8px 4px, rgba(0, 0, 0, 0.3) 0px 16px 8px, rgba(0, 0, 0, 0.3) 0px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px 0 0 20px;
+}
