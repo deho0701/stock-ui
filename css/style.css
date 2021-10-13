@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "animation.css";
-@import "main/main.css";
+@import "main/main-header.css";
+@import "main/main-article.css";
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Secular+One&display=swap');
 
 body {

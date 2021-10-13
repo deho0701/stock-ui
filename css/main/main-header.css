@@ -9,6 +9,7 @@
 .grid__main {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .grid__main-header {
   color: rgba(214,214,214,0.1);
@@ -17,7 +18,7 @@
   border-bottom: 2px solid rgba(214,214,214,0.1);
   color: rgba(214,214,214,0.1);
   display: flex;
-  
+  justify-content: space-between;
   align-items: center;
 }
 .header__form {
@@ -33,27 +34,67 @@
 .header__search {
   font-size: 17px;
   background-color: rgba(0,0,0,0);
-  width: 650px;
+  width: 12vw;
   height: 35px;
   border: none;
   border-radius: 10px;
   font-weight: 600;
+  color: rgba(247,247,247,0.65);
 }
 .header__search:hover {
   background-color: rgba(214,214,214,0.1);
 }
+.header__profile-all {
+  display: flex;
+  justify-content: space-between;
+}
 .header__profile {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  width: 250px;
 }
 .main__avatar {
   width: 50px;
   border-radius: 25px;
   margin-left: 15px;
+  margin-right: 20px;
 }
 .main__avatar-name {
   color: white;
   opacity: 0.3;
+}
+.header__icons {
+  width: 75px;
+  height: 75px;
+  border-left: 2px solid rgba(214,214,214,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.header__icons:hover {
+  color: whitesmoke;
+}
+.header__icons:last-child {
+  border: none;
+}
+.header__order {
+  width: 170px;
+  height: 75px;
+  background-color: #F7E111;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__order-btn {
+  display: flex;
+  width: 170px;
+  align-items: center;
+  justify-content: center;
+  color: black;
 }
 .grid__side {
   background-color: rgba(0,0,0,0.45);
