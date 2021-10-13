@@ -1,7 +1,7 @@
 .grid {
   width: 75vw;
-  height: 185vh;
-  background-color: rgba(0,0,0,0.6);
+  height: 151.6vh;
+  background-color: rgba(0,0,0,0.7);
   display: grid;
   grid-template-columns: 15vw 60vw;
   border-radius: 20px;
@@ -83,7 +83,7 @@
 .header__order {
   width: 170px;
   height: 75px;
-  background-color: #F7E111;
+  background-color: #EBF03C;
   color: black;
   display: flex;
   align-items: center;
@@ -102,4 +102,6 @@
   display: flex;
   flex-direction: column;
   border-radius: 20px 0 0 20px;
+  height: 151.6vh;
 }
+

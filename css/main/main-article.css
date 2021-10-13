@@ -1,3 +1,4 @@
+/*header*/
 .article {
   width: 50vw;
   height: 172vh;
@@ -40,8 +41,73 @@
   height: 40px;
   background-color: rgba(214,214,214,0.2);
 }
+
+
+/*main article*/
 .main-article {
   width: 50vw;
   height: 160vh;
-  border: 2px solid brown;
+  display: flex;
+  flex-direction: column;
+}
+.main-article__fav {
+  width: 50vw;
+  height: 200px;
+  background-color: rgba(214,214,214,0.12);
+}
+.main-article__bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+  color: rgba(214,214,214,0.2);
+  margin-top: 20px;
+}
+.main-article__bar-left {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.fa-plus-square {
+  margin-left: 9.2px;
+}
+.main-article__first-column, .main-article__second-column {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5.8vh;
+}
+.main-article__gainer, .main-article__losers, .main-article__agenda, .main-article__news {
+  width: 23.5vw;
+  height: 42vh;
+  background-color: rgba(214,214,214,0.12);
+}
+
+/*footer*/
+.footer {
+  width: 50vw;
+  height: 60px;
+  margin-top: 4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__left {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logoo {
+  width: 60px;
+}
+.footer__left-text {
+  color: rgba(214,214,214,0.45);
+}
+.footer__right {
+  color: rgba(214,214,214,0.65);
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+.footer__info1:hover, .footer__info2:hover, .footer__info3:hover, .footer__info4:hover {
+  color: whitesmoke;
 }
