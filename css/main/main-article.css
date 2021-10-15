@@ -80,6 +80,9 @@
   height: 42vh;
   background-color: rgba(214,214,214,0.12);
 }
+.fav__icons:hover {
+  color: whitesmoke;
+} 
 
 /*footer*/
 .footer {
